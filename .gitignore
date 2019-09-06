@@ -1,0 +1,30 @@
+/terraform/.terraform
+/terraform/auth0CredDocs/saml-metadata.xml
+/terraform/testLambda/node_modules
+/terraform/auth0-test.plan
+/terraform/*.zip
+/terraform/*.tfstate
+/terraform/*.tfstate.backup
+/terraform/variables.tf
+
+# dependencies
+/auth0-test-app/node_modules
+/auth0-test-app/.pnp
+/auth0-test-app/.pnp.js
+
+# testing
+/auth0-test-app/coverage
+
+# production
+/auth0-test-app/build
+
+# misc
+/auth0-test-app/.DS_Store
+/auth0-test-app/.env.local
+/auth0-test-app/.env.development.local
+/auth0-test-app/.env.test.local
+/auth0-test-app/.env.production.local
+
+/auth0-test-app/npm-debug.log*
+/auth0-test-app/yarn-debug.log*
+/auth0-test-app/yarn-error.log*
